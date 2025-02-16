@@ -1,0 +1,9 @@
+#5 - Optical Illusion by Brian Ba La
+
+My project idea started with the classic illusion - Hermann Grid. The optical effect will make human eyes perceive the dots that did not actually existed.
+
+The project desin begin with the game play experiences that involve the tranformation between light and darkness. I use this color change as one of the key factor. The way 
+
+In earlier stage of the game, I tried make it rotate to express more sense of illusion, but the turn out the optical effect on the dots significantly decreased, which was quite a failure.
+
+Then I tried to use the location of the mouse create a visual center, but then I found when the visual center went off to the edge the effect is not very good. Instead I place a glitching square in the middle to guild the audience's view point. It worked out well.

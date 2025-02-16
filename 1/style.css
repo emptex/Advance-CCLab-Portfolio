@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Novocento'; /* 给字体起一个名字 */
+  src: url('Font.otf') format('opentype'); /* 引用字体文件的路径 */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 全局样式 */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 确保内容填满整个视窗高度 */
+  background: #141414; /* 深色背景 */
+  font-family: 'Novocento','Times New Roman', Times, serif;
+  color: #002fa7; /* 全局字体颜色为白色 */
+}
+
+/* 容器样式 */
+.container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  gap: 40px; /* 画布和描述之间的间距 */
+  flex-wrap: nowrap; /* 确保内容不换行 */
+  transform: translateX(-200px); /* 整体左移30px，根据需求调整数值 */
+}
+
+
+
+/* 画布外容器样式 */
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px; /* 与画布大小保持一致 */
+  height: 400px; /* 与画布大小保持一致 */
+  position: relative;
+  transform: translateX(-50px); /* 向左移动50px，根据需要调整数值 */
+}
+
+
+/* 画布区域 */
+#p5-canvas {
+  width: 100%; /* 画布填充父容器 */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景，便于调试 */
+  border: 1px solid #fff; /* 可选：添加白色边框 */
+  transform: translateX(-50px); /* 向左移动50px，根据需要调整数值 */
+}
+
+
+/* 描述区域样式 */
+.description {
+  
+  max-width: 500px; /* 描述区域的最大宽度 */
+  text-align: left; /* 文本左对齐 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px; /* 标题和段落之间的间距 */
+}
+
+/* 标题样式 */
+.description h2 {
+  font-size: 69px;
+  margin: 0;
+}
+
+/* 描述段落样式 */
+.description p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* 返回主页按钮样式 */
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #D7932A; /* 按钮背景颜色 */
+  color: white; /* 按钮文字颜色 */
+  text-decoration: none; /* 移除链接下划线 */
+  font-size: 16px;
+  border-radius: 5px; /* 按钮圆角 */
+  transition: background 0.3s; /* 增加动画效果 */
+}
+
+.back-home:hover {
+  background: #002fa7; /* 鼠标悬停时按钮背景变暗 */
+}

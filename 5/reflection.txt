@@ -1,0 +1,15 @@
+Data Portrait Reflection
+
+Description:
+This data portrait shows my daily water intake for a week. Each bar represents the number of cups of water I drank each day. 
+Each bar's height shows the number of cups of water I drank. The label above each bar shows the exact number.
+
+I tracked my water intake for a week (honestly some data are not accurate), then used p5.js to create a simple bar graph with an animated wave. The bars slowly appears in water feels like a water level slowly rise up
+
+Reflection:
+I learned that my water intake varies a lot. Visualizing it helped me see the fluctuations and motivated me to drink more consistently. Also I learned the how to present the crucial data through assign the visual value to the data.
+
+Gains/Losses:
+- Gained: Easy and efficent to see patterns in my intake. Easy to interperate
+- Lost: maybe if the time range is longer the value of data visualization would be more important.
+

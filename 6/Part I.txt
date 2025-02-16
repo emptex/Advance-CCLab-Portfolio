@@ -1,0 +1,4 @@
+This design is pretty much straightforward to the assignment title: face generator. I worked to match different colors and various facial features (not very successfully) into a randomly generated pattern. The base module is a sketch I created for my original character ThingZhi (click the mouse to see him!).
+There were several technical issues I faced in the process, including losing track of the shapes' edges, color codes getting messed up, shoulder lengths not matching, etc.
+I discovered that attributes are sometimes called and created at the very last minute because the ones created at the beginning sometimes do not work.
+

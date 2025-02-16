@@ -1,0 +1,23 @@
+Brain storm:
+1. show of sun pointing to a certain number （sundial）
+2. stone errosion by water
+3. star sky points to time
+
+The point is use system time to generate greet base on different time of the day.
+
+pseudocode:(i dont know the proper format of it i just try to make sense)
+
+//stars
+
+rotate(speed)
+speed = speed+1
+(set of random points)
+//this create rotating stars
+
+if mousePressed > time slow down
+  Greet = "Good + xxx"
+  
+xxx = get.hour
+
+if hour <xxx then output xxx
+etc
